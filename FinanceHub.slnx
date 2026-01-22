@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="FinanceHub.API/FinanceHub.API.csproj" />
+  <Project Path="FinanceHub.Application/FinanceHub.Application.csproj" />
+  <Project Path="FinanceHub.Domain/FinanceHub.Domain.csproj" />
+  <Project Path="FinanceHub.Infrastucture/FinanceHub.Infrastucture.csproj" />
+</Solution>
