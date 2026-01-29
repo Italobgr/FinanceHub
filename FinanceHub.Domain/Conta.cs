@@ -1,6 +1,6 @@
 using System;
 
-namespace Conta.Domain.entities
+namespace FinanceHub.Domain.entities
 {
     
     public class Conta
