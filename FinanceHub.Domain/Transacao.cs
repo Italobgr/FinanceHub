@@ -34,7 +34,7 @@ namespace FinanceHub.Domain.Entities
         public Guid CategoriaId { get; private set; }
 
         // Propriedades de Navegação (EF Core)
-        public virtual Conta Conta { get; set; } = null!;
+        public virtual Conta Conta { get; set; } = null!; // lazy loading EF core
         public virtual Categoria Categoria { get; set; } = null!;
 
         // Validações
