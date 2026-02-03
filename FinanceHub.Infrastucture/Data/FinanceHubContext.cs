@@ -17,16 +17,12 @@ namespace FinanceHub.Infrastucture
 
             protected override void OnModelCreating(ModelBuilder modelBuilder)
             {
+                
                 modelBuilder.ApplyConfigurationsFromAssembly(typeof(FinanceHubContext).Assembly);
 
                 base.OnModelCreating(modelBuilder);
+
             }
-
-
-
-
-        
-        
 
 
     }
