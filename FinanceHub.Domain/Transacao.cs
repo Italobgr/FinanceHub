@@ -2,7 +2,7 @@ using System;
 using FinanceHub.Domain.entities;
 using FinanceHub.Domain.Enums;
 
-// 1. PADRONIZAÇÃO: O namespace deve ser o mesmo do projeto
+
 namespace FinanceHub.Domain.Entities 
 {
     public class Transacao
@@ -22,7 +22,7 @@ namespace FinanceHub.Domain.Entities
             CategoriaId = categoriaId;
         }
 
-        // 2. ENCAPSULAMENTO: 'private set' protege a integridade dos dados
+        
         public Guid Id { get; private set; }
         public string Descricao { get; private set; }
         public decimal Valor { get; private set; }
@@ -33,11 +33,11 @@ namespace FinanceHub.Domain.Entities
         public Guid ContaId { get; private set; }
         public Guid CategoriaId { get; private set; }
 
-        // Propriedades de Navegação (EF Core)
+        
         public virtual Conta Conta { get; set; } = null!; // lazy loading EF core
         public virtual Categoria Categoria { get; set; } = null!;
 
-        // Validações
+        
         private void Validar(string descricao, decimal valor, Guid contaId, Guid categoriaId)
         {
             if (string.IsNullOrWhiteSpace(descricao))
