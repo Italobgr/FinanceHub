@@ -24,14 +24,14 @@ namespace FinanceHub.Domain.entities
 
     public void AtualizarNome(string nome)
         {
-            //ValidarConta(nome);
+            
             Nome = nome;
         }
 
-    //validacao conta e saldo
+    
 
 
-    //Regra de negocio a prop Saldo continua privada so esse metodo mexe nela
+    // a prop Saldo continua privada so esse metodo mexe nela//
     public void Depositar(decimal valor)
         {
             if(valor <= Saldo)
