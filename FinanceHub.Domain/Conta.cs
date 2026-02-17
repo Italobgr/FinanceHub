@@ -6,6 +6,8 @@ namespace FinanceHub.Domain.entities
     public class Conta
     {
 
+        //permite que o EF Core use.
+        protected Conta() { }
      public Conta(string nome,decimal saldoInicial, bool ativa = true)
      {
         
