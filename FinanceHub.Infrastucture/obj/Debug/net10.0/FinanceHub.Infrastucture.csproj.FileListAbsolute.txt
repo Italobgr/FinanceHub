@@ -14,3 +14,5 @@ C:\Users\Pc Gamer\Documents\Projetos\FinanceHub\FinanceHub.Infrastucture\obj\Deb
 C:\Users\Pc Gamer\Documents\Projetos\FinanceHub\FinanceHub.Infrastucture\obj\Debug\net10.0\refint\FinanceHub.Infrastucture.dll
 C:\Users\Pc Gamer\Documents\Projetos\FinanceHub\FinanceHub.Infrastucture\obj\Debug\net10.0\FinanceHub.Infrastucture.pdb
 C:\Users\Pc Gamer\Documents\Projetos\FinanceHub\FinanceHub.Infrastucture\obj\Debug\net10.0\ref\FinanceHub.Infrastucture.dll
+C:\Users\Pc Gamer\Documents\Projetos\FinanceHub\FinanceHub.Infrastucture\bin\Debug\net10.0\FinanceHub.Infrastucture.runtimeconfig.json
+C:\Users\Pc Gamer\Documents\Projetos\FinanceHub\FinanceHub.Infrastucture\obj\Debug\net10.0\FinanceHub.Infrastucture.genruntimeconfig.cache
